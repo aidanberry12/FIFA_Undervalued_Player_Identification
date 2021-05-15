@@ -122,5 +122,137 @@ The final model to use for each time horizon was chosen using cross validated me
 This final XGBoost model for each time horizon was then fit on the entire horizon dataset (with 2015 as the base year) for training. The true value-add from this analysis was to provide recommended players for team managers to scout for each time horizon based on their predicted growth in value over the horizon period. For each model, the cleaned 2021 data was passed into the XGBoost model to generate predicted response values for each player in the dataset. These predicted response values are the relative percent change in value over the time horizon for the model. The top 10 players in each time horizon with the highest predicted value growth over the horizon are listed below. For example, a 2022 maturity is a 1-year horizon from the 2021 data that was used for prediction. 
 This information can be useful to team managers in the coming transfer window to help pinpoint the best purchasing decisions for their team before the next season starts and assist them in rounding out their team with emerging talent at a discounted price.
 
+#### 2022 Maturity
+
+| **Rank** | **Player Name** | **Predicted Value Increase By 2022 (%)** |
+| --- | --- | --- |
+| 1 | Jay Barnett | 16,251 |
+| 2 | Nikolaos Baxevanos | 14,096 |
+| 3 | Dannie Bulman | 13,830 |
+| 4 | Hussein Omar Abdul Ghani Sulaimani | 10,587 |
+| 5 | Paulo César Da Silva Barrios | 7,208 |
+| 6 | 远藤保仁 | 6,257 |
+| 7 | 이동국李东国 | 5,360 |
+| 8 | Juan Francisco Martínez Modesto | 4,472 |
+| 9 | Júlio César Cáceres López | 3,757 |
+| 10 | Vitorino Hilton da Silva | 907 |
+
+#### 2023 Maturity
+
+| **Rank** | **Player Name** | **Predicted Value Increase By 2023 (%)** |
+| --- | --- | --- |
+| 1 | Wassim Aouachria | 16,698 |
+| 2 | Ziming Liu
+ | 16,643 |
+| 3 | 张元 | 16,642 |
+| 4 | 冯伯元
+ | 16,487 |
+| 5 | Mark Marleku
+ | 16,427 |
+| 6 | Yiming Yang
+ | 16,324 |
+| 7 | Díver Jesús Torres Ferrer
+ | 16,286 |
+| 8 | Gonzalo Gabriel Sánchez Franco
+ | 16,062 |
+| 9 | Shpetim Sulejmani
+ | 15,912 |
+| 10 | Kevin Raphael Diaz
+ | 13,452 |
+
+#### 2024 Maturity
+
+| **Rank** | **Player Name** | **Predicted Value Increase By 2024 (%)** |
+| --- | --- | --- |
+| 1 | Kyle Hayde
+ | 16,765 |
+| 2 | Yu Zhang
+ | 16,751 |
+| 3 | Joe Woodiwiss
+ | 16,709 |
+| 4 | Uniss Kargbo
+ | 16,603 |
+| 5 | Ibrahim Bakare
+ | 16,570 |
+| 6 | Díver Jesús Torres Ferrer
+ | 16,286 |
+| 7 | Mohamed Traore
+ | 16,225 |
+| 8 | Ionuţ Radu Mitran
+ | 16,211 |
+| 9 | Jarrad Branthwaite
+ | 13,243 |
+| 10 | Jean Emile Junior Onana Onana
+ | 7,802 |
+
+#### 2025 Maturity
+
+| **Rank** | **Player Name** | **Predicted Value Increase By 2025 (%)** |
+| --- | --- | --- |
+| 1 | James Akintunde
+ | 16,838 |
+| 2 | 高大伦 | 16,738 |
+| 3 | Harvey Saunders | 16,630 |
+| 4 | Díver Jesús Torres Ferrer | 16,286 |
+| 5 | Christopher Merrie
+ | 16,256 |
+| 6 | Jay Barnett
+ | 16,251 |
+| 7 | Mohamed Traore
+ | 16,225 |
+| 8 | Isaac Hutchinson
+ | 14,645 |
+| 9 | Manuel Ugarte Ribeiro
+ | 14,557 |
+| 10 | Alfie Bates
+ | 13,970 |
+
+#### 2026 Maturity
+
+| **Rank** | **Player Name** | **Predicted Value Increase By 2026 (%)** |
+| --- | --- | --- |
+| 1 | Jamie Browne
+ | 16,832 |
+| 2 | Memet Abdulla Ezmat | 16,801 |
+| 3 | Luis Robles
+ | 16,797 |
+| 4 | Jiaxing Deng
+ | 16,745 |
+| 5 | Ged Garner
+ | 16,741 |
+| 6 | Christian Marcelo Silva de León | 16,645 |
+| 7 | Adelin Valentin Voinescu
+ | 16,638 |
+| 8 | Nicolás Daniel Ruiz Tabárez
+ | 16,636 |
+| 9 | Diego Ferney Abadía García
+ | 16,634 |
+| 10 | Harvey Saunders
+ | 16,630 |
+
+#### 2027 Maturity
+
+| **Rank** | **Player Name** | **Predicted Value Increase By 2027 (%)** |
+| --- | --- | --- |
+| 1 | Jamie Browne
+ | 16,832 |
+| 2 | Ricardo Dinanga
+ | 16,831 |
+| 3 | Luis Robles
+ | 16,797 |
+| 4 | Adrián Alejandro Mejía Carrasco
+ | 16,667 |
+| 5 | Saúl Alejandro Guarirapa Briceño
+ | 16,652 |
+| 6 | Harvey Saunders
+ | 16,630 |
+| 7 | Bruno Scorza Perdomo
+ | 16,585 |
+| 8 | Edgaras Dubickas
+ | 16,481 |
+| 9 | 懂洪麟
+ | 16,479 |
+| 10 | Michael Tait | 16,380 |
+
 
 

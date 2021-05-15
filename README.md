@@ -1,5 +1,5 @@
 # FIFA Undervalued Player Identification and Team Budget Optimization
-Author: Aidan Berry
+Author: Aidan Berry </br>
 Date: May 14, 2021
 
 ## Overview
